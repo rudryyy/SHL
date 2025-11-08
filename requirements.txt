@@ -4,12 +4,12 @@ uvicorn[standard]==0.30.6
 pydantic==2.9.2
 pydantic-core==2.23.4
 
-# IMPORTANT: use a 2.x wheel that exists on Render
 numpy==2.1.3
-
 faiss-cpu==1.12.0
 
-torch==2.2.2
+# Use a PyPI-available wheel:
+torch==2.5.1
+
 sentence-transformers==2.7.0
 transformers==4.41.2
 tokenizers==0.15.2
